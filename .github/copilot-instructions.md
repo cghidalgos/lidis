@@ -22,12 +22,6 @@ npm install
 npm run dev
 ```
 
-## Docker
-
-```bash
-docker compose up --build
-```
-
 ## Contacto
 - Carrera 122 # 6-65, Cali, Colombia
 - +57 3102334941
