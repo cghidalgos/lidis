@@ -1,5 +1,7 @@
 
 
+
+import { Link } from 'react-router-dom';
 import './App.css';
 import logo from './assets/logo.png';
 
@@ -19,7 +21,7 @@ function App() {
           <section className="section modern-card">
             <h3>Semilleros de Investigación</h3>
             <div className="semilleros-btns">
-              <a className="semillero-btn" href="#" target="_blank" rel="noopener noreferrer">PADIA</a>
+              <Link className="semillero-btn" to="/padia">PADIA</Link>
               <a className="semillero-btn" href="#" target="_blank" rel="noopener noreferrer">DIDI 4.0</a>
               <a className="semillero-btn" href="#" target="_blank" rel="noopener noreferrer">Ingeniería de Software</a>
               <a className="semillero-btn" href="#" target="_blank" rel="noopener noreferrer">BIT MIND</a>
