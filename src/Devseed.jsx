@@ -1,13 +1,10 @@
 
-
-
 import { Link } from 'react-router-dom';
-import padiaLogo from './assets/padia.png';
 
-function Padia() {
+function Devseed() {
   return (
     <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '100vh', background: 'linear-gradient(120deg, #e3e7ed 0%, #f8fafc 100%)'}}>
-      <img src={padiaLogo} alt="Logo PADIA" style={{maxWidth: '320px', width: '80%', height: 'auto', marginBottom: '2rem'}} />
+      <span style={{fontSize: '2rem', color: '#0a3d62', marginBottom: '2rem'}}>Logo DEVSEED aquí</span>
       <Link to="/" style={{
         background: 'linear-gradient(90deg, #0a3d62 0%, #3c6382 100%)',
         color: '#fff',
@@ -25,4 +22,4 @@ function Padia() {
   );
 }
 
-export default Padia;
+export default Devseed;

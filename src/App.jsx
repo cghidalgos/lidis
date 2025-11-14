@@ -22,10 +22,10 @@ function App() {
             <h3>Semilleros de Investigación</h3>
             <div className="semilleros-btns">
               <Link className="semillero-btn" to="/padia">PADIA</Link>
-              <a className="semillero-btn" href="#" target="_blank" rel="noopener noreferrer">DIDI 4.0</a>
-              <a className="semillero-btn" href="#" target="_blank" rel="noopener noreferrer">Ingeniería de Software</a>
-              <a className="semillero-btn" href="#" target="_blank" rel="noopener noreferrer">BIT MIND</a>
-              <a className="semillero-btn" href="#" target="_blank" rel="noopener noreferrer">DEVSEED</a>
+              <Link className="semillero-btn" to="/didi">DIDI 4.0</Link>
+              <Link className="semillero-btn" to="/ingenieria-software">Ingeniería de Software</Link>
+              <Link className="semillero-btn" to="/bitmind">BIT MIND</Link>
+              <Link className="semillero-btn" to="/devseed">DEVSEED</Link>
             </div>
           </section>
           <section className="section modern-card">
